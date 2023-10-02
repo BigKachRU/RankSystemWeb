@@ -1,0 +1,7 @@
+version: '3.9'
+services: 
+  ranksystem: 
+    build: ./RankSystemWeb
+    container_name: Ranksystem
+    ports:
+      - "9000:80"
